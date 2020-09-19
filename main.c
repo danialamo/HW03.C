@@ -12,6 +12,6 @@ int main(void) {
   int number;
   printf("Enter an int: ");
   scanf("%d",& number);
-  printf("The of digits of %d is %d.", number, digit_sum(number)); 
+  printf("sum of digits of %d is %d.", number, digit_sum(number)); 
   return 0;
   } 
