@@ -8,10 +8,11 @@ int digit_sum(int n){
   return(n % 10 + digit_sum(n / 10));
 }
 
-int main(void) {
+int main(void){
   int number;
-  printf("Enter an int: ");
-  scanf("%d",& number);
-  printf("sum of digits of %d is %d.", number, digit_sum(number)); 
+  printf("Enter an Int: ");
+  scanf("%d",&number); 
+  printf("sum of digits of %d is %d.", number, digit_sum(number));
   return 0;
-  } 
+}
+  
